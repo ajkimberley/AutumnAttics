@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+strong a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.carousel-caption {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: auto;
+	top: 0;
+	bottom: auto;
+	background-color: rgba(116,116,116,0.50);
+}
+
+.carousel-caption h2, h3 {
+	color: white;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #D6D0C3;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	line-height: 85px;
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #8F6224 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	height: 99px;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.dropdown-menu {
+	background-color: #D6D0C3;
+}
+
+.main-logo {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.navbar-contact {
+	position: absolute;
+	left: 250px;
+}
+
+.bg-grey {
+	background-color: #B9B9B9;
+}
+
+.bg-cream {
+	background-color: #D6D0C3;
+}
+
+.logo {
+	font-size: 200px;
+}
+
+.jumbotron {
+	background-image: linear-gradient(
+      rgba(116,116,116,0.85), 
+      rgba(116, 116, 116, 0.85)
+    ), url(../images/jumbo-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding: 300px 10px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+	z-index: 0;
+}
+
+#myCarousel {
+	min-height: 453px;
+	background-color: #B9B9B9;
+}
+
+.container-fluid {
+	padding: 60px 50px;
+}
+
+.about-logo {
+	padding:  50px 0px 0px 0px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+	.jumbotron {
+		background-position: right;
+	}
+}
+
+@media only screen and (max-width: 515px) {
+	.navbar-header {
+		margin-bottom: 20px;
+		padding-right: 20px;
+	}
+	
+	.navbar-contact {
+		left: 50px;
+		bottom: 20px;
+	}
+}
+
+@media (max-width: 480px) { 
+  #myCarousel, .carousel-control {
+    min-height: 120px;
+	max-height: 120px;
+  }
+  .carousel-caption{
+	  min-height: 120px;
+	  max-height: 120px;
+	  overflow: hidden;
+  }
+  .subtitle {
+	  display: none;
+  }
+}
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+	   width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+	#myNavbar {
+		overflow-y: scroll !important;
+	}
+}
