@@ -5,7 +5,7 @@
 		$tel = $POST['tel'];
 		$message = $_POST['message'];
 		$from = 'Demo Contact Form'; 
-		$to = 'a.kimberley@uea.ac.uk'; 
+		$to = 'example@example.com'; 
 		$subject = 'Message from Contact Demo ';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
